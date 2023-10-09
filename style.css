@@ -513,22 +513,38 @@ input[type=button]:hover{
 /* Menu Section Starts here */
 
 .menu-container{
-    background: #0c2c5e;
+    background: radial-gradient(circle, #e98c8c, #dbe9db);
 }
 
 .menu-header{
     font-size: 30px;
     text-align: center;
     font-family: cursive;
-    color: #fff;
+    color: #474141;
     text-decoration: underline;
     margin-bottom: 30px;
 }
 
 .menu-pallete{
-    color: #fff;
-    max-width: 1300px;
+    color: #5e5656;
+    width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-page-1 {
+    flex: 40%;
+    margin-right: 50px;
+}
+
+.menu-page-2 {
+    flex: 40%;
+}
+
+
+.price {
+    font-size: 20px;
 }
 
 
